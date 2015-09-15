@@ -1,0 +1,38 @@
+.scroll-text {
+	border:2px solid #E6E6E6;
+	width: 445px;
+	height: 250px;
+	overflow: hidden;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor:pointer;
+}
+.scroll-text ul {
+	width: 445px;
+	height: 500px;
+	padding-left: 10px;
+	overflow: hidden;
+	margin: 0;
+}
+.scroll-text ul li {
+	/*height: 1.5em;*/
+	height:auto;
+	list-style:none;
+}
+.scroll-img {
+	border: 1px solid red;
+	width: 680px;
+	height: 142px;
+	overflow: hidden;
+	font-size: 0;
+}
+.scroll-img ul {
+	width: 700px;
+	height: 600px;
+	margin: 0;
+}
+.scroll-img ul li {
+	display: inline-block;
+	margin: 10px 0 10px 10px;
+}

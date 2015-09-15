@@ -1,0 +1,69 @@
+/* CSS for the scrollers */
+
+@font-face{
+	font-family: kg;
+	src: url('../fonts/KGTenThousandReasonsAlt.ttf'),
+     	 url('KGTenThousandReasonsAlt.eot');
+}
+div#scroll-wrapper{
+	width:450px;
+	height:225px;
+	position:relative;
+	padding:27px 0px 20px;
+	overflow:hidden;
+	background:url(../images/board1.jpg) no-repeat center 15px;
+}
+div.horizontal_scroller, div.vertical_scroller{
+	position:relative;
+	height:24px;
+	width:500px;
+	display:block;
+	/*background:#222;*/
+	overflow:hidden;
+	/*border:2px solid #E6E6E6;*/
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+div.vertical_scroller{
+	height:225px;
+	width:410px;
+	margin-left:20px;
+}
+div.scrollingtext{
+	position:absolute;
+	width:100%;
+	white-space:nowrap;
+	font-family:kg, Arial, verdana;
+	font-size:14px;
+	color:#fff;
+}
+div.scrollingtext ul{
+	padding-left: 10px;
+}
+div.scrollingtext ul li{
+	list-style:none;
+}
+div.scrollingtext a{
+	color:#fff;
+}
+div.scrollingtext a:hover{
+	color:#8CC4FE;
+}
+
+.top-grad{
+	width:100%;
+	position:absolute;
+	height:15px;
+	background:url(../images/top-grad.png) repeat-x;
+	left:0px;
+	top:15px;
+}
+.bottom-grad{
+	width:100%;
+	position:absolute;
+	height:15px;
+	background:url(../images/bottom-grad.png) repeat-x;
+	left:0px;
+	bottom:30px;
+}

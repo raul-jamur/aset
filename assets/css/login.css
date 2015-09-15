@@ -1,0 +1,136 @@
+body{
+	background:#EEE url(../images/bg.png) repeat;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#1d1d1d;
+	padding:0px;
+	margin:0px;
+}
+
+.shad{
+	width:100%;
+	height:100px;
+	background:url(../images/shadow.png) repeat-x;
+	position:absolute;
+	bottom:0px;
+}
+
+.logo{
+	margin:150px auto 0px;
+	width:250px;
+	padding:10px 15px;
+	display:block;
+	height:55px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	-moz-box-shadow: 0 0 5px #444;
+	-webkit-box-shadow: 0 0 5px #444;
+	box-shadow: 0 0 5px #444;
+	background:#02254F url(../images/logo2.jpg) no-repeat 15px 10px;
+}
+
+.logo img{
+	position:relative;
+	top:0px;
+	height:55px;
+}
+
+.logo .nama-sistem{
+	position:relative;
+	width:190px;
+	height:100%;
+	margin-left:60px;
+	font-family:"Trebuchet MS";
+	font-size:18px;
+	line-height:1.4em;
+	/*font-weight:bold;*/
+	color:#fff;
+}
+
+#login_box{
+	width:250px;
+	height:auto;
+	margin:0 auto;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#fff;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+	padding:15px;
+}
+
+.title{
+	padding:0px 0px 15px 0px;
+	margin:0px;
+	border-bottom:solid 1px #ddd;
+	font-size:35px;
+}
+
+.inputan{
+	width: 100%;
+    font: 12px Arial, Helvetica, Verdana, sans-serif;
+    outline: none;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    background: #EDEDED; /* old browsers */
+    background: -moz-linear-gradient(top, #EDEDED 0%, #FCFCFC 10%, #FCFCFC 90%, #EDEDED 100%); /* firefox */
+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EDEDED), color-stop(10%, #FCFCFC), color-stop(90%, #FCFCFC), color-stop(100%, #EDEDED)); /* webkit */
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#EDEDED', endColorstr = '#EDEDED', GradientType = 0); /* ie */
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+    padding: 3px 0;
+	margin:5px 0px 15px;
+}
+
+.button{
+	text-align: center;
+    font-size: 13px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+	padding:5px 20px;
+    border-radius:3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    display: block;
+	margin:15px auto 0px;
+	cursor:pointer;
+	height:30px;
+    color: #fff;
+	border:solid 1px #02254F;
+	background:#2ba6cb url(../images/button.png) repeat-x;
+}
+
+.button:hover{
+	background:#2284a1 url(../images/button-hover-bg.png) repeat-x;
+}
+
+#home-btn{
+	display:block;
+	text-align:center;
+	margin-top:10px;
+}
+
+#home-btn a{
+	background:url(../images/home2.png) no-repeat center left;
+	padding:10px 10px 10px 30px;
+	color:#02254F;
+	text-decoration:none;
+}
+#home-btn a:hover{
+	color:#2284A1;
+}

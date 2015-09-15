@@ -1,0 +1,37 @@
+.notif{
+	display:block;
+	background:#fff url(../images/notif-bg.png) left bottom repeat-x;
+	border-radius:3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+	padding:3px 5px;
+	-moz-box-shadow: 0 1px 3px #888;
+	-webkit-box-shadow: 0 1px 3px#888;
+	box-shadow: 0 1px 3px #888;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.error, .warning, .info, .success{ line-height:1.3em; padding-left:24px; overflow:hidden; text-align:left; }
+
+.error{
+	color:#961311;
+	background: url(../images/error.png) no-repeat;
+}
+
+.success{
+	color:#3F5218;
+	background: url(../images/success.png) no-repeat;
+}
+
+.warning{
+	color:#84732C;
+	background: url(../images/warning.png) no-repeat;
+}
+
+.info{
+	color:#4C5153;
+	background: url(../images/info.png) no-repeat;
+}

@@ -1,0 +1,89 @@
+.menu_wrap, .menu_wrap2{
+float:left;
+height:35px;
+position:relative;
+margin:0;
+text-align:center;
+padding:0;
+z-index:999;
+}
+.menu_wrap2{
+	float:right;
+}
+.menu{
+padding:0;
+margin:0;
+}
+.menu ul{
+margin:0;
+padding:0;
+}
+.menu li{
+float:left;
+overflow:hidden;
+height:35px;
+list-style-type:none;
+}
+.menu li a{
+color:#fff;
+text-align:left;
+/*padding-top:10px;*/
+width:110px;
+padding:10px 5px 0px 20px;
+cursor:pointer;
+height:25px;
+display:block;
+text-decoration:none;
+background:url(../images/panelmenu_bg.png) no-repeat 5px center;
+}
+.menu li a:hover, .menu ul li:hover a{
+background:#2284A1 url(../images/panelmenu_bg_hover.png) no-repeat 5px center;
+color:#fff;
+}
+.menu li ul{
+background:#333;
+display:none;
+height:auto;
+padding:0px;
+margin:0px;
+width:135px;
+border:0px;
+position:absolute;
+z-index:9999;
+}
+.menu li:hover ul{
+display:block;
+border-top:solid 1px #2284A1;
+}
+.menu li li{
+background:#555 url(../images/panelmenu_bg.png) no-repeat 5px center;
+display:block;
+float:none;
+width:135px;
+height:auto;
+margin:0;
+padding:0;
+}
+.menu li:hover li a{ background:none; }
+.menu li ul a{
+display:block;
+padding:5px 5px 5px 20px;
+height:auto;
+width:200px;
+margin:0px;
+color:#FFBFBF;
+text-align:left;
+}
+.menu li ul a:hover, .menu li ul li:hover a{
+background:#2284A1 url(../images/panelmenu_bg_hover.png) no-repeat 5px center;
+color:#222222;
+text-decoration:none;
+}
+.menu p{ clear:left; }
+.menu li a img{
+border:none;
+position:relative;
+float:right;
+top:7px;
+right:10px;
+} 
